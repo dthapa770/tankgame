@@ -141,13 +141,8 @@ public class TRE extends JPanel implements Runnable {
         Graphics2D g2 = (Graphics2D) g;
         super.paintComponent(g2);
         Graphics2D buffer = world.createGraphics();
-       // buffer.setColor(Color.BLACK);
-       // buffer.fillRect(0, 0, GameConstants.WORLD_WIDTH, GameConstants.WORLD_HEIGHT);
-
         buffer.drawImage(Resource.getResourceImage("background"), 0, 0, GameConstants.WORLD_WIDTH, GameConstants.WORLD_HEIGHT, null);
 
-        // this.t1.drawImage(buffer);
-        //  this.t2.drawImage(buffer);
         gameObjects.forEach(gameObjects -> gameObjects.drawImage(buffer));
 
         splitScreen(g2);
