@@ -3,44 +3,36 @@
 
 | Student Information |                |
 |:-------------------:|----------------|
-|  Student Name       |   Name Here    |
-|  Student Email      |   Email Here   |
+|  Student Name       |  Dinesh Thapa   |
+|  Student Email      |   dthapa@mail.sfsu.edu   |
 
-## src Folder Purpose 
-src folder is to be used to store source code only.
 
-## resources Folder Purpose 
-resources folder is to be used to store the resources for your project only. This includes images, sounds, map text files, etc.
+## Version of Java Used: JDK 11.0.9.1
 
-`The src and resources folders can be deleted if you want a different file structure`
-
-## jar Folder Purpose 
-The jar folder is to be used to store the built jar of your term-project.
-
-`NO SOURCE CODE SHOULD BE IN THIS FOLDER. DOING SO WILL CAUSE POINTS TO BE DEDUCTED`
-
-`THIS FOLDER CAN NOT BE DELETED OR MOVED`
-
-# Required Information when Submitting Tank Game
-
-## Version of Java Used:
-
-## IDE used: 
+## IDE used: IntelliJ 2020.2
 
 ## Steps to Import project into IDE:
+1. Clone repository from Github.
+2. In IntelliJ, Go to File -> Open and select the cloned repo.
 
 ## Steps to Build your Project:
+In IntelliJ, go to "Project Structure -> Modules", and change the following settings.
+ 1. set the Github repo as the Content Root
+ 2. set the src folder as a Source
+ 3. set the src/Resources folder as a Resource
  
 ## Steps to run your Project:
+Choose 1 of the 2 options.
+1. Right Click on the "Launcher" class and select Run "Launcher.main()". The game starts immediately once launched.
+2. The Tank Game can also be by running the included .jar in Jar Folder. 
 
 ## Controls to play your Game:
 
 |               | Player 1 | Player 2 |
 |---------------|----------|----------|
-|  Forward      |          |          |
-|  Backward     |          |          |
-|  Rotate left  |          |          |
-|  Rotate Right |          |          |
-|  Shoot        |          |          |
+|  Forward      |  Up-Arrow       |     W    |
+|  Backward     |  Down-Arrow     |     S    |
+|  Rotate left  |  Left-Arrow     |     A    |
+|  Rotate Right |  Right-Arrow    |     D    |
+|  Shoot        |  Space-Arrow    |     Enter|
 
-<!-- you may add more controls if you need to. -->
